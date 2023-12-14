@@ -6,8 +6,7 @@ INCLUDE = include/
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-FILES = ft_printf.c \
-		core.c
+FILES = ft_printf.c core.c
 
 OBJECTS = $(FILES:.c=.o)
 OBJECTS_PREFIX = $(addprefix $(SRCS), $(OBJECTS))
